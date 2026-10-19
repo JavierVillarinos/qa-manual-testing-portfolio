@@ -1,50 +1,42 @@
-# QA Manual Testing Portfolio
+# Test Cases — Login
 
 ## Descripción
 
-Este proyecto forma parte de mi portfolio de QA Manual y tiene como objetivo documentar y ejecutar pruebas funcionales sobre aplicaciones web, aplicando conceptos fundamentales de testing de software.
+Esta carpeta contiene los casos de prueba diseñados y ejecutados para validar la funcionalidad de inicio de sesión de la aplicación Sauce Demo.
 
-## Proyecto: Login Testing — Sauce Demo
+## Funcionalidad bajo prueba
 
-**Aplicación bajo prueba:** [Sauce Demo](https://www.saucedemo.com/)
-
-**Funcionalidad:** Inicio de sesión
-
-**Tipo de prueba:** Testing funcional manual
-
-**Requisito:** REQ-001
+- **Aplicación:** [Sauce Demo](https://www.saucedemo.com/)
+- **Funcionalidad:** Inicio de sesión
+- **Tipo de prueba:** Testing funcional manual
+- **Requisito:** REQ-001
 
 ## Alcance de las pruebas
 
-Se diseñaron y ejecutaron casos de prueba para verificar diferentes escenarios del inicio de sesión, incluyendo:
+Los escenarios cubren:
 
 - Inicio de sesión exitoso con credenciales válidas.
-- Usuario o contraseña incorrectos.
+- Usuario incorrecto.
+- Contraseña incorrecta.
+- Usuario y contraseña incorrectos.
 - Campos obligatorios vacíos.
 - Usuario bloqueado.
 - Usuario compuesto únicamente por espacios.
 
-## Documentación de los casos de prueba
+## Estructura de los casos
 
-Cada caso de prueba incluye:
+Cada caso de prueba documenta:
 
-- Identificador único (TC-001, TC-002, etc.).
-- Prioridad y precondiciones.
+- Identificador y título.
+- Requisito y prioridad.
+- Precondiciones.
 - Datos de prueba.
 - Pasos de ejecución.
 - Resultado esperado y resultado obtenido.
-- Estado de ejecución y observaciones.
+- Estado y observaciones.
 
-## Resultados
+## Resumen de ejecución
 
-Se documentaron y ejecutaron 9 casos de prueba correspondientes a la funcionalidad de inicio de sesión.
+Se diseñaron y ejecutaron **9 casos de prueba**, cuyos resultados están registrados en el archivo principal de casos de prueba.
 
-Los resultados se encuentran registrados en el archivo de casos de prueba, junto con las observaciones de cada ejecución.
-
-## Reporte de defectos
-
-El portfolio incluye un reporte de defecto relacionado con el comportamiento observado al utilizar el usuario `problem_user` en Sauce Demo.
-
-## Objetivo de aprendizaje
-
-Este proyecto busca desarrollar habilidades prácticas en diseño de casos de prueba, ejecución de pruebas funcionales, documentación de resultados e identificación y reporte de defectos.
+Los casos permiten practicar el diseño, la ejecución y la documentación de pruebas funcionales manuales.
