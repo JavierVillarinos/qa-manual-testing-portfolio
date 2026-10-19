@@ -5,7 +5,7 @@
 Funcionalidad: Inicio de sesión  
 Requisito: REQ-001  
 Tipo de prueba: Pruebas funcionales  
-Estado: En preparación  
+Estado: Completado
 
 
 # TC-001 - Inicio de sesión con credenciales válidas
