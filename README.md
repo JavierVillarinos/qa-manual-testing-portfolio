@@ -48,3 +48,20 @@ El portfolio incluye un reporte de defecto relacionado con el comportamiento obs
 ## Objetivo de aprendizaje
 
 Este proyecto busca desarrollar habilidades prácticas en diseño de casos de prueba, ejecución de pruebas funcionales, documentación de resultados e identificación y reporte de defectos.
+
+## Proyectos
+
+### 1. Login Testing — Sauce Demo
+
+Diseño y ejecución de 9 casos de prueba funcionales para validar distintos escenarios del inicio de sesión.
+
+- [Ver casos de prueba](test-cases/login.md)
+- [Ver reporte de defecto: BUG-001 — problem_user](bug-reports/BUG-001.md)
+
+### Habilidades aplicadas
+
+- Diseño de casos de prueba.
+- Ejecución de pruebas funcionales manuales.
+- Comparación entre resultados esperados y obtenidos.
+- Documentación de resultados.
+- Identificación y reporte de defectos.
